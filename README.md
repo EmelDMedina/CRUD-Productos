@@ -20,9 +20,17 @@ Esta es una aplicación sencilla para el manejo de base de datos usando el Frame
 
 ### Paso a Paso.
 
-1. Clona el repositorio:
+1. **Clonar el repositorio**
    `git clone https://github.com/EmelDMedina/CRUD-Productos.git`
-2. Instalar las dependencias `pip install -r requirements.txt`
+2. **Instalar un Entorno Virtual (opcional)** Si desea instalar un entorno virtual para no afectar las dependencias en su computadora, lo puede hacer usando el siguiente comando en la consola.
+
+   ```bash
+   $ pip install virtualenv
+   $ python -m virtualenv env
+   $ env\Scripts\activate
+   ```
+
+3. **Instalar las dependencias** `pip install -r requirements.txt`
 
 ## Funcionamiento.
 
