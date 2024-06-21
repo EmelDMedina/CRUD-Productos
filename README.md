@@ -26,12 +26,12 @@ Esta es una aplicación sencilla para el manejo de base de datos usando el Frame
 
 ## Funcionamiento.
 
-| Archivos y su funcionamiento.    |
-| :------------------------------- |
-| [app.py](##app.py)               |
-| [config.py](##config.py)         |
-| [controller.py](##controller.py) |
-| [model.py](##model.py)           |
+| Archivos y su funcionamiento.   |
+| :------------------------------ |
+| [app.py](#app.py)               |
+| [config.py](#config.py)         |
+| [controller.py](#controller.py) |
+| [model.py](#model.py)           |
 
 ## app.py
 
