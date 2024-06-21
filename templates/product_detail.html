@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+<h1>{{ product.nombre }}</h1>
+<p>{{ product.descripcion }}</p>
+<p>Price: ${{ product.precio }}</p>
+<a href="{{ url_for('edit_product', product_id=product.id) }}">Edit</a>
+<a href="{{ url_for('delete_product', product_id=product.id) }}">Delete</a>
+{% endblock %}
