@@ -299,9 +299,9 @@ def delete_product(product_id):
     - **return True**: Si la eliminación fue exitosa, devuelve `True`.
   - **return False**: Si el producto no existe, devuelve `False`.
 
-## model.py
+### model.py
 
-1. Importación de `SQLAlchemy`
+1. **Importación de `SQLAlchemy`**
 
    ```python
    from flask_sqlalchemy import SQLAlchemy
@@ -309,7 +309,7 @@ def delete_product(product_id):
 
    - **SQLAlchemy**: Es un ORM (Object Relational Mapper) para Python que permite interactuar con bases de datos de manera más intuitiva y con menos código SQL.
 
-2. Creación de la instancia de la base de datos
+2. **Creación de la instancia de la base de datos**
 
    ```python
    db = SQLAlchemy()
@@ -317,7 +317,7 @@ def delete_product(product_id):
 
    - **db**: Se crea una instancia de `SQLAlchemy`, que se usará para interactuar con la base de datos en la aplicación Flask.
 
-3. Definición de la clase `Producto`
+3. **Definición de la clase `Producto`**
 
    ```python
    class Producto(db.Model):
@@ -332,7 +332,7 @@ def delete_product(product_id):
 
    - **class Producto(db.Model)**: Define un modelo de datos llamado `Producto` que hereda de `db.Model`, lo que indica que esta clase es un modelo de SQLAlchemy.
 
-4. Atributos de la clase `Producto`
+4. **Atributos de la clase `Producto`**
 
    ```python
    id = db.Column(db.Integer, primary_key=True)
@@ -358,7 +358,7 @@ def delete_product(product_id):
 
    - **precio**: Es un campo de tipo flotante que almacena el precio del producto. No puede ser nulo, por lo que es obligatorio proporcionar un precio para cada producto.
 
-5. Método `__repr__`
+5. **Método `__repr__`**
 
    ```python
    def __repr__(self):
