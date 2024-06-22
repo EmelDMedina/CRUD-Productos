@@ -15,8 +15,8 @@ Esta es una aplicación sencilla para el manejo de base de datos usando el Frame
 ### Requisitos de instalación.
 
 - Python 3.+
-- Flask
 - pip (gestor de paquetes de Python)
+- Flask
 
 ### Paso a Paso.
 
@@ -25,9 +25,9 @@ Esta es una aplicación sencilla para el manejo de base de datos usando el Frame
 2. **Instalar un Entorno Virtual (opcional)** Si desea instalar un entorno virtual para no afectar las dependencias en su computadora, lo puede hacer usando el siguiente comando en la consola.
 
    ```bash
-   $ pip install virtualenv
-   $ python -m virtualenv env
-   $ env\Scripts\activate
+   pip install virtualenv
+   python -m virtualenv env
+   ./env/Scripts/activate
    ```
 
 3. **Instalar las dependencias** `pip install -r requirements.txt`
